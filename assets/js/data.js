@@ -20,7 +20,7 @@ window.PORTFOLIO = {
     "initials": "RKP",
     "role": "Senior SDET and QA Automation Lead",
     "location": "Dubai, UAE",
-    "photo": "/assets/img/profile.jpg",
+    "photo": "",
     "availability": "Open to Senior SDET, QA Lead and Test Automation Architect roles",
     "tagline": "I build test automation that teams trust, so releases ship faster and break less.",
     "intro": "12 years of testing web, API, mobile and performance layers for insurance, fintech, billing and automotive products. I design automation frameworks from scratch, run them in CI/CD, and lead QA teams in Agile delivery.",
