@@ -1,16 +1,16 @@
 /* Layout concept: a test report. Intro on the left, a live pytest run on the right,
    then sections with a fixed label column and content column, like report headings. */
 :root {
-  --bg: #f4f6f5;
+  --bg: #f5f7fa;
   --surface: #ffffff;
-  --ink: #15211d;
-  --muted: #56645f;
-  --line: #d8dfdc;
-  --accent: #0b6e55;
-  --accent-soft: #e2f1eb;
-  --console-bg: #17211e;
-  --console-fg: #d7e4de;
-  --pass: #4cc794;
+  --ink: #172233;
+  --muted: #5a6577;
+  --line: #dce3ec;
+  --accent: #1f5c99;
+  --accent-soft: #e4eef9;
+  --console-bg: #172233;
+  --console-fg: #d6e0ec;
+  --pass: #7db8ef;
   --font-display: "Familjen Grotesk", "Segoe UI", Arial, sans-serif;
   --font-body: "Source Sans 3", "Segoe UI", Arial, sans-serif;
   --font-mono: "JetBrains Mono", Consolas, "Courier New", monospace;
@@ -24,14 +24,14 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #111816; --surface: #18211e; --ink: #e4ece8; --muted: #9fb0a9; --line: #2b3733;
-    --accent: #5cc9a1; --accent-soft: #1d3029; --console-bg: #0b100e; --console-fg: #cfdcd6; --pass: #5cc9a1;
+    --bg: #0f141c; --surface: #161e2a; --ink: #e6ecf3; --muted: #9ba8ba; --line: #26313f;
+    --accent: #7db8ef; --accent-soft: #1b2b40; --console-bg: #0a0f16; --console-fg: #d0dae6; --pass: #7db8ef;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #111816; --surface: #18211e; --ink: #e4ece8; --muted: #9fb0a9; --line: #2b3733;
-  --accent: #5cc9a1; --accent-soft: #1d3029; --console-bg: #0b100e; --console-fg: #cfdcd6; --pass: #5cc9a1;
+  --bg: #0f141c; --surface: #161e2a; --ink: #e6ecf3; --muted: #9ba8ba; --line: #26313f;
+  --accent: #7db8ef; --accent-soft: #1b2b40; --console-bg: #0a0f16; --console-fg: #d0dae6; --pass: #7db8ef;
   color-scheme: dark;
 }
 
